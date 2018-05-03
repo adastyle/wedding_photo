@@ -1,0 +1,38 @@
+body{
+    background:black;
+}
+.head_img{
+    height:250px;
+    width:100%;
+}
+.head_img>div{
+    width:1200px;
+    height:220px;
+}
+/*分页*/
+.xy_pages{
+    width:100%;
+    height:100px;
+    background:black;
+    margin-top:100px;
+}
+.produte_span{
+    height:100px;
+    width:1200px;
+    position: relative;
+}
+.produte_span div{
+    position:absolute;
+    right:0px;
+}
+.produte_span span{
+    border:1px solid #eee;
+    padding:8px 15px 8px 15px;
+    border-radius:5px; cursor: pointer;
+
+}
+.produte_span .produte_color{
+    background:#9DAFB8;
+}
+
+

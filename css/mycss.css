@@ -1,0 +1,215 @@
+/*登录页面*/
+.xy_login,.xy_register{
+    width:100%;
+    height:980px;
+    background:black;
+    position:relative;
+}
+.xy_login img{
+    margin-top:100px;
+}
+.xy_login .login_box{
+    position:absolute;
+    top:510px;/*;;*/
+    right:340px;
+    width:310px;
+    height:365px;
+    border:7px solid #458BBF;
+}
+.login_box  .login_title{
+    color:#FEFFFF;
+    font-size:28px;
+    display:inline-block;
+    margin-top:18px;
+    margin-left:13px;
+    font-style:italic;
+}
+.login_box>form>input{
+    width:180px;
+    height:26px;
+    border-radius:20px;
+    font-size:16px;
+    margin-top:18px;
+    color:#FEFFFF;
+    outline:none;
+    font-style:italic;
+    border:1px solid #FFFFFF;
+    background:black;
+    padding-left:30px;
+}
+.login_box>form{
+    width:290px;
+    margin-left:50px;
+}
+
+.login_box>form span{
+    color:red;
+    font-style:italic;
+    font-size:14px;
+}
+.login_box>form>.login_button{
+    width:200px;
+    height:30px;
+    margin-top:8px;
+    margin-left:6px;
+}
+
+
+.login_box>form>.login_button>input{
+    width:80px;
+    height:30px;
+    font-size:18px;
+    font-style:italic;
+    margin-top:18px;
+    margin-right:10px;
+    border-radius:10px;
+    color:#FFFFFF;
+    background:#458BBF;
+    border-color:#458BBF;
+}
+
+.login_box>form>input[name="uname"]{
+    background:black url(../img/login_img/user1.png) no-repeat 10px center;
+}
+.login_box>form>input[name="upwd"]{
+    background:black url(../img/login_img/pwd1.png) no-repeat 10px center;
+
+}
+
+.xy_login .login_box div.link_other{
+    position:absolute;
+    left:90px;
+    bottom:0px;
+    width:240px;
+    height:30px;
+}
+.xy_login .login_box div.link_other>a{
+    width:80px;
+    height:30px;
+    color:#FFFFFF;
+    font-size:16px;
+    font-style:italic;
+}
+.xy_login .login_box div.link_other>a:first-child{
+    margin-right:50px;
+}
+
+
+
+
+/*注册*/
+.xy_register .register_box{
+    width:450px;
+    height:600px;
+    border:10px solid #458BBF;
+    background:black;
+    position:absolute;
+    top:70px;
+    right:300px;
+}
+.xy_register .register_box>div{
+    width:300px;
+    height:50px;
+    font-size:30px;
+    font-style:italic;
+    margin-top:40px;
+    margin-bottom:15px;
+    color:#FFFFFF;
+}
+.xy_register .register_box>form>tr{
+    height:30px;
+}
+.xy_register .register_box>form{
+    margin-left:20px;
+}
+.xy_register .register_box>form tr>td>input{
+    width:180px;
+    height:26px;
+    font-size:16px;
+    color:#FEFFFF;
+    outline:none;
+    font-style:italic;
+    background:black;
+    border:1px solid #FFFFFF;
+    border-radius:12px;
+    margin-left:20px;
+}
+.xy_register .register_box>form tr>td{
+    font-size:16px;
+    color:#FEFFFF;
+    font-style:italic;
+    line-height:28px;
+    height:28px;
+}
+.xy_register .register_box>form tr>td:first-child{
+    text-align:right;
+}
+
+.xy_register .register_box>form tr{
+    height:50px;
+}
+
+.xy_register .register_box form td>input[name='button']{
+    width:180px;
+    height:35px;
+    background:#458BBF;
+    border-color:#458BBF;
+    margin-left:20px;
+    border-radius:15px;
+    margin-top:30px;
+
+}
+
+.xy_register .register_box div.link_login{
+    position:absolute;
+    right:10px;
+    bottom:15px;
+    width:170px;
+    height:30px;
+}
+.xy_register .register_box div.link_login>a{
+    width:170px;
+    height:30px;
+    color:#FFFFFF;
+    font-size:16px;
+    font-style:italic;
+}
+
+
+.xy_register .register_box>form tr>td:last-child{
+    width:160px;
+    height:26px;
+    font-size:12px;
+    color:red;
+}
+
+
+
+/*忘记密码*/
+.xy_forgetPwd{
+    width:100%;
+    height:980px;
+    background:black;
+    psoaition:relative;
+}
+.xy_forgetPwd>img{
+    position:absolute;
+    top:20%;
+    left:40%;
+}
+.forgetPwd_box{
+    width:600px;
+    height:600px;
+    border:6px solid #458BBF;
+    position:absolute;
+    top:13%;
+    left:14%;
+}
+.forgetPwd_box>.xy_title{
+    width:400px;
+    height:50px;
+    color:white;
+    font-size:50px;
+    font-style:italic;
+    margin-top:60px;
+}

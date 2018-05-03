@@ -1,0 +1,106 @@
+body{
+    background:black;
+}
+div.head_img{
+    width:100%;
+    height:279px;
+    background:black;
+}
+.head_img>.img{
+    width:1200px;
+    height:279px;
+}
+
+.xy_recommend_all{
+    width:100%;
+    height:1100px;
+    background:black;
+}
+.xy_recommend_all>.recommend{
+    width:1200px;
+    height:1100px;
+    padding-left:50px;
+    padding-top:40px;
+    position:relative;
+}
+.xy_recommend_all>.recommend>#nowSay{
+    width:800px;
+    height:60px;
+    border:2px solid white;
+    border-radius:20px;
+    padding:20px;
+    overflow:hidden;
+    background:black;
+    font-size:18px;
+    color:white;
+    outline:none;
+}
+.xy_recommend_all>.recommend>a{
+    width:100px;
+    height:40px;
+    position:absolute;
+    top:70px;
+    right:150px;
+    background:#9DAFB8;
+    font-size:20px;
+    color:black;
+    border-radius:20px;
+    padding-top:13px;
+    padding-left: 40px;
+}
+.xy_recommend_all>.recommend ul{
+    list-style:none;
+    margin-top:50px;
+    margin-left:40px;
+    width:700px;
+}
+.xy_recommend_all>.recommend ul>li{
+    width:700px;
+    height:140px;
+    margin-top:25px;
+    position:relative;
+}
+.xy_recommend_all>.recommend ul>li>span{
+    display:inline-block;
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    position:absolute;
+    top:20px;
+    left:5px;
+}
+.recommend_show{
+    width:580px;
+    height:135px;
+    display:inline-block;
+    background:url(../img/index_img/face2.png) no-repeat;
+    margin-left:150px;
+    padding-left:40px;
+    padding-top:20px;
+    color:white;
+    font-size:17px;
+}
+/*分页*/
+.xy_pages{
+    width:100%;
+    height:100px;
+    background:black;
+}
+.produte_span{
+    height:100px;
+    width:1200px;
+    position: relative;
+}
+.produte_span div{
+    position:absolute;
+    right:0px;
+}
+.produte_span span{
+    border:1px solid #eee;
+    padding:8px 15px 8px 15px;
+    border-radius:5px; cursor: pointer;
+
+}
+.produte_span .produte_color{
+    background:#9DAFB8;
+}
